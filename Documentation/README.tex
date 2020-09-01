@@ -1,0 +1,46 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\author{GG}
+\title{README}
+\date{}
+\begin{document}
+\maketitle
+\section*{About Encoding Simulator: }
+Encoding Simulator it is a program written in Python. It takes a bit stream from the user and 
+then it encodes the stream while plotting an ASCII - based voltage graph. The methods that the program
+uses to encode the stream are the following:
+\begin{itemize}
+	\item{NRZ-L}
+	\item{NRZ-I}
+	\item{Bipolar AMI}
+	\item{Pseudoternary}
+	\item{Manchester}
+	\item{Diff. Manchester}
+\end{itemize}
+
+\section*{How to use: }
+The program is tested to be running on GNU/Linux and Windows 10. I have no indication that the program will not be running
+on Mac since python can be installed on Mac, but i have never tested it. 
+\begin{itemize}
+	\item{Linux:} In the unlikely scenario that your linux installation is not shipped with python you can install python3x on any           distribution either using synaptic or pacman (it is in the core repositories)
+	and then run the program using your favorite terminal by issue this command "python3 encoder.py". The program 
+	asks you to give a bit stream and then to choose a method of encoding.
+	\item{Windows 10:} It is highly unlikely that your Windows system shipped with Python already installed so you may have to 
+	download the python from this \href{https://www.python.org/}{\textcolor{blue}{URL}}
+	\begin{itemize}
+		\item Open a browser window and navigate to the Download page for Windows at python.org.
+		\item On the heading at the top of the site it says Downloads. Click Windows.
+		\item Find the newest version of python3. At the point of writing this,  it is Python3.8.1 and click on download the executable installer.
+		\item Once the installer is downloaded run it and install it on your machine.
+		\item Run the program by issue this command "python encoder.py" in the cmd 
+	\end{itemize}
+\end{itemize}
+\section*{Legal:} Encoding Simulator is licensed under the terms of }{\textcolor{blue}{URL}}.
+
+\end{document}
